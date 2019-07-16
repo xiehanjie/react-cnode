@@ -1,0 +1,19 @@
+@textColor: #34314F;
+@titleColor: #1D1919;
+@actionColor: #233142;
+@bgColor: #EEF2F5;
+
+.flex(@justifyContent, @alignItems) {
+    display: flex;
+    justify-content: @justifyContent;
+    align-items: @alignItems;
+}
+
+.btn(@width, @height, @background, @color) {
+    width: @width;
+    height: @height;
+    background: @background;
+    color: @color;
+    .flex(center, center);
+    box-shadow: 0 4px 10px 2px softlight(@background, @color);
+}
