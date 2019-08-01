@@ -1,2 +1,2 @@
 # react-cnode
-react + redux 练手项目
+react + redux cnode社区web移动端
